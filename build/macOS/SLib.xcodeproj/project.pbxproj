@@ -416,6 +416,7 @@
 		D7C3BB0226AEEEC400FD529D /* zip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C3BAFF26AEEEC400FD529D /* zip.cpp */; };
 		D7C682CF2692A4F8000A85E1 /* app_macos.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7C682CE2692A4F7000A85E1 /* app_macos.mm */; };
 		D7C709832645A0BB00FB3A32 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7C709822645A0BB00FB3A32 /* main.cpp */; };
+		D7E3B5722912C58100DCC5E2 /* log_package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7E3B5712912C58100DCC5E2 /* log_package.cpp */; };
 		D7E978ED268DC6A7000343F8 /* service_manager_macos.mm in Sources */ = {isa = PBXBuildFile; fileRef = D7E978EC268DC6A7000343F8 /* service_manager_macos.mm */; };
 /* End PBXBuildFile section */
 
@@ -924,6 +925,7 @@
 		D7C3BAFF26AEEEC400FD529D /* zip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zip.cpp; sourceTree = "<group>"; };
 		D7C682CE2692A4F7000A85E1 /* app_macos.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = app_macos.mm; sourceTree = "<group>"; };
 		D7C709822645A0BB00FB3A32 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../tool/src/GenerateAppIcons/main.cpp; sourceTree = "<group>"; };
+		D7E3B5712912C58100DCC5E2 /* log_package.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log_package.cpp; sourceTree = "<group>"; };
 		D7E978EC268DC6A7000343F8 /* service_manager_macos.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = service_manager_macos.mm; sourceTree = "<group>"; };
 		E17DADEE1E0C9A10006161F6 /* motion_tracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = motion_tracker.cpp; sourceTree = "<group>"; };
 		E17DADF01E0C9A1E006161F6 /* gesture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gesture.cpp; sourceTree = "<group>"; };
@@ -1634,6 +1636,7 @@
 				D72A0892263B505F00BCD333 /* key_value_store.cpp */,
 				D72A0893263B505F00BCD333 /* leveldb.cpp */,
 				D72A0891263B505F00BCD333 /* lmdb.cpp */,
+				D7E3B5712912C58100DCC5E2 /* log_package.cpp */,
 				D72A0888263B504D00BCD333 /* mongodb.cpp */,
 				265EBF221C23041600AD81D9 /* mysql.cpp */,
 				D72A0880263B504600BCD333 /* mysql_data.cpp */,
@@ -2115,6 +2118,7 @@
 				26D9D9151E9645CE005F7BD3 /* blowfish.cpp in Sources */,
 				265EA93A2550D48C0098721F /* file_system_logger.cpp in Sources */,
 				26D9D9E31E96468D005F7BD3 /* ui_event.cpp in Sources */,
+				D7E3B5722912C58100DCC5E2 /* log_package.cpp in Sources */,
 				26D9D9161E9645CE005F7BD3 /* async_kqueue.cpp in Sources */,
 				26C7959F22154CB80053C5A1 /* clipboard.cpp in Sources */,
 				26D9D9E51E96468D005F7BD3 /* ui_menu.cpp in Sources */,
